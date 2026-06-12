@@ -1,0 +1,14 @@
+name: systems_biology
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - jupyter
+  - pip:
+    # Qui potrai aggiungere eventuali pacchetti pip specifici in futuro
